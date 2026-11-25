@@ -1,0 +1,12 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+ <rect width="64" height="64" rx="17" fill="#081C2C"/>
+ <ellipse cx="32" cy="32" rx="27" ry="14"
+  transform="rotate(-30 32 32)"
+  fill="none" stroke="#46DFD2" stroke-width="2"/>
+ <circle cx="32" cy="32" r="18" fill="#F4D38B"/>
+ <text x="32" y="43" text-anchor="middle"
+  font-size="29" font-family="Arial"
+  font-weight="bold" fill="#081C2C">₹</text>
+ <circle cx="53" cy="17" r="4" fill="#FF9566"/>
+</svg>
+
