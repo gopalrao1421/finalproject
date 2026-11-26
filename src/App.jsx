@@ -2,7 +2,7 @@
 import {useState} from "react";
 import Landing from "./pages/Landing";
 import Login from "./pages/Login";
-import Admin from "./pages/Admin";
+
 import Finance from "./pages/Finance";
 
 import {getSession,logout} from "./utils/auth";
@@ -16,9 +16,7 @@ export default function App(){
  const [user,setUser]=useState(getSession);
  const [entered,setEntered]=useState(false);
 
- if(window.location.pathname==="/admin"){
-  return <Admin/>;
- }
+ 
 
  function resetLocation(){
   window.history.replaceState(null,"","/");
@@ -59,4 +57,5 @@ export default function App(){
   }}
  />;
 }
+
 
